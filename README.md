@@ -16,21 +16,23 @@ git clone https://github.com/yourusername/local-pdf-rag-chatbot.git
 cd local-pdf-rag-chatbot
 ```
 
-**Create virtual environment**
+Create virtual environment:
+
 python -m venv venv
 venv\Scripts\activate  # Windows
 
-**Install dependencies**
+Install dependencies:
 pip install -r requirements.txt
 
-**Pull Ollama models**
+Pull Ollama models:
 ollama pull llama3.2
 ollama pull nomic-embed-text
 
-**Run the app**
+Run the app:
 streamlit run app.py
 
 **Now If You Pull On Another System**
+
 git clone <repo-url>
 cd project
 python -m venv venv
