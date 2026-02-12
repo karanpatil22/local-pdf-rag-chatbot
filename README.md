@@ -14,6 +14,7 @@ Clone repo:
 ```bash
 git clone https://github.com/yourusername/local-pdf-rag-chatbot.git
 cd local-pdf-rag-chatbot
+```
 
 **Create virtual environment**
 python -m venv venv
